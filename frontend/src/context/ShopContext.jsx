@@ -11,6 +11,9 @@ const ShopContextProvider = (props) => {
   const [showSearch,setShowSearch] = useState(true);
 
 
+  // this is for showing the error message while not selecting the object
+
+
   const value = {
     products,
     currency,
